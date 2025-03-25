@@ -1,0 +1,19 @@
+{
+  "name": "random-number-mcp-server",
+  "version": "1.0.0",
+  "description": "This project implements a simple Model Context Protocol (MCP) server that provides a tool to generate random numbers using the [random.org](https://www.random.org/) API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.13"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "axios": "^1.8.4"
+  }
+}
